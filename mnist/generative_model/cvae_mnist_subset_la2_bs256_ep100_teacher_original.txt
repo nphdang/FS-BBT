@@ -1,0 +1,3 @@
+dataset: mnist, cvae_data_type: subset
+teacher_data_type: original
+runtime: 22.74(s)

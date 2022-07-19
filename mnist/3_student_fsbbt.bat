@@ -1,0 +1,3 @@
+python fsbbt_lenet5_half.py --dataset mnist --studentdatatype subset --teacherdatatype original --cvaedatatype subset --cvaelatent 2 --cvaebatchsize 256 --cvaeepochs 100 --balance 0 --batchsize 64 --epochs 50 --nogen 0 --sampling hybrid --augmentation combination --mxalpha 1 --nomixup 24000 --loss ce --round 2 --threshold 0.05 --run 1 --gpu -1
+
+python fsbbt_lenet5.py --dataset mnist --studentdatatype subset --teacherdatatype original --cvaedatatype subset --cvaelatent 2 --cvaebatchsize 256 --cvaeepochs 100 --balance 0 --batchsize 64 --epochs 50 --nogen 0 --sampling hybrid --augmentation combination --mxalpha 1 --nomixup 24000 --loss ce --round 2 --threshold 0.05 --run 1 --gpu -1

@@ -1,0 +1,3 @@
+dataset: mnist, data_type: original
+teacher - accuracy: 0.9918, f1_macro: 0.9917
+runtime: 145.23(s)
