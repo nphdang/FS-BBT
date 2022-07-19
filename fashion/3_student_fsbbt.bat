@@ -1,0 +1,3 @@
+python light_kd.py --dataset fashion --studentdatatype subset --teacherdatatype original --cvaedatatype subset --cvaelatent 2 --cvaebatchsize 256 --cvaeepochs 200 --balance 0 --batchsize 64 --epochs 50 --nogen 0 --sampling hybrid --augmentation combination --mxalpha 1 --nomixup 48000 --loss ce --round 2 --threshold 0.05 --run 1 --gpu -1
+
+python light_kd_lenet5.py --dataset fashion --studentdatatype subset --teacherdatatype original --cvaedatatype subset --cvaelatent 2 --cvaebatchsize 256 --cvaeepochs 200 --balance 0 --batchsize 64 --epochs 50 --nogen 0 --sampling hybrid --augmentation combination --mxalpha 1 --nomixup 48000 --loss ce --round 2 --threshold 0.05 --run 1 --gpu -1

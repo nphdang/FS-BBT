@@ -1,0 +1,3 @@
+dataset: fashion, data_type: original
+teacher - accuracy: 0.9015, f1_macro: 0.902
+runtime: 123.34(s)

@@ -1,0 +1,1 @@
+python lenet5.py --dataset fashion --datatype original --batchsize 64 --epochs 20 --gpu -1

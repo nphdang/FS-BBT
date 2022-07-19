@@ -1,0 +1,1 @@
+python cvae.py --dataset fashion --cvaedatatype subset --teacherdatatype original --latent 2 --batchsize 256 --epochs 200 --gpu -1
