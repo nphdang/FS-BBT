@@ -1,0 +1,3 @@
+dataset: cifar100, data_type: original
+teacher - accuracy: 0.6908, f1_macro: 0.6907
+runtime: 30807.38(s)

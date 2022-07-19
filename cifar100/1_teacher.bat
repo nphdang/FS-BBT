@@ -1,0 +1,1 @@
+python resnet32.py --dataset cifar100 --datatype original --batchsize 32 --epochs 200 --gpu -1
