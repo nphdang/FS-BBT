@@ -1,0 +1,3 @@
+python fsbbt_alexnet_half.py --dataset cifar10 --studentdatatype subset --teacherdatatype original --cvaedatatype subset --cvaemethod input_cond --cvaelatent 2 --cvaebatchsize 64 --cvaeepochs 601 --balance 0 --batchsize 128 --epochs 100 --nogen 0 --sampling hybrid --augmentation combination --mxalpha 1 --nomixup 40000 --loss ce --round 2 --threshold 0.05 --run 1 --gpu -1
+
+python fsbbt_alexnet.py --dataset cifar10 --studentdatatype subset --teacherdatatype original --cvaedatatype subset --cvaemethod input_cond --cvaelatent 2 --cvaebatchsize 64 --cvaeepochs 601 --balance 0 --batchsize 128 --epochs 100 --nogen 0 --sampling hybrid --augmentation combination --mxalpha 1 --nomixup 40000 --loss ce --round 2 --threshold 0.05 --run 1 --gpu -1
